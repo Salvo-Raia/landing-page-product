@@ -9,7 +9,9 @@
 }
 
 /* Media Query */ 
-@media screen and (min-width: 576px) {
+
+/* Desktop version */
+@media screen and (min-width: 992px) {
     .banner {
         display: flex;
     }
