@@ -42,7 +42,13 @@ footer h4 {
 /* SVG Icons */
 
 .navbar .icon {
+    height: 40px;
+    width: 40px;
     margin: 0;
+}
+
+.navbar-toggler {
+    border: none;
 }
 
 .star-icons .icon {
