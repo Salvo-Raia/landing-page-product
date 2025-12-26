@@ -1,39 +1,47 @@
-/* Banner */ 
-.banner-left {
-    flex-basis: 50%;
-    height: 50vh;
+/* Fonts */ 
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.24;
 }
 
-.banner-left img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-
+.banner h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 80px;
+    font-weight: 400px;
+    line-height: 0.9;
+    color: rgb(65, 65, 65);
+    
 }
 
-.banner-right {
-    background-image: url(../img/banner-bg.png);
-    background-size: cover;
-    flex-basis: 50%;
-    height: 50vh;
+.banner p {
+    font-size: 20px;
+    color: rgb(65, 65, 65);
 }
 
-.btn-outline-secondary:hover {
-    background-color: black;
-    color: white;
+.banner .btn {
+    font-size: 20px;
+    padding: 15px 40px;
 }
 
-/* Gallery */ 
 .gallery h5 {
     color: rgb(133, 212, 14);
 }
 
+footer h4 {
+    font-size: 50px;
+    }
+
 /* SVG Icons */
+
+.navbar .icon {
+    margin: 0;
+}
+
 .star-icons .icon {
     color: rgb(241, 189, 55);
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    margin: 0;
 }
 
 .testimonials .star-icons .icon {
@@ -43,6 +51,8 @@
 
 .icon {
     width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
     color: rgb(55, 28, 211);
 } 
 
@@ -63,16 +73,51 @@ color: rgb(39, 196, 39);
     margin: 0 5px;
 }
 
+/* Banner */ 
+.banner-left {
+    flex-basis: 50%;
+}
+
+.banner-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner-right {
+    background-image: url(../img/banner-bg.png);
+    background-size: cover;
+    flex-basis: 50%;
+    padding: 40px 0;
+}
+
+.btn-outline-secondary {
+    border-color: black;
+    color: black;
+}
+
+.btn-outline-secondary:hover {
+    background-color: black;
+    color: white;
+}
+
+
 /* Footer */ 
+footer {
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+}
 
 .input-container {
     border-bottom: 1px solid gray;
-    width: 33%;
+    width: 100%;
 }
 
 .input-container input {
     outline: none;
     border: none;
+    background-color: rgb(236, 236, 236);
 }
 
 /* Media Query */ 
@@ -85,18 +130,51 @@ color: rgb(39, 196, 39);
     .banner-left {
         height: 500px;
     }
-
+    
     .banner-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         height: 500px;
+    }
+
+    .banner-right p {
+        width: 80%;
     }
 
     .product-specs {
         display: flex;
+        align-items: center;
     }
 
     .product-specs img {
         width: 50%;
     }
-    
+
+    .product-specs-text-column {
+    width: 40%;
+    }
+
+    .testimonials .col-lg-4 {
+    width: 20%;
+    }
+
+    .trust-bar .col-lg-4:nth-of-type(2) .p-lg-5 {
+    border-left: 1px solid rgb(211, 211, 211);
+    border-right: 1px solid rgb(211, 211, 211);
+    }
+
+    footer h4 {
+    font-size: 50px;
+    width: 25%;
+    }
+
+    footer p {
+        width: 35%;
+    }
+
+    .input-container {
+    width: 33%;
+    }
 
 }

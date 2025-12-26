@@ -9,21 +9,31 @@
            crossorigin="anonymous">
     <!-- Custom stylesheet -->
      <link href="./css/style.css" rel="stylesheet" type="text/css"> 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Rubber Duck Debuggings</title>
 </head>
 <body>
 
     <header class="navbar-header">
          <!-- navbar --> 
-         <!--! SOSTITUIRE CON NAVBAR OFF-CANVAS CHE PERO' DEVO CONTROLLARE MEGLIO PERCHE' MI DA' PROBLEMI--> 
-         <!--TODO (Personalizzare)-->
+         <!--TODO (Personalizzare icona collapse)-->
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img class="img-fluid" src="./img/logo.png" alt="Rubber Duck logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span>
+            <svg class="icon">
+                <use href="#navbar-icon"></use>
+            </svg>
+        </span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
@@ -33,7 +43,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-5">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-4">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -66,9 +76,9 @@
 
                 </div>
 
-                <div class="banner-right text-center p-4">
-                    <h1>Rubber Duck Debuggings</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, laborum?</p>
+                <div class="banner-right text-center">
+                    <h1 class="mb-5">Rubber Duck Debuggings</h1>
+                    <p class="mb-4">Spiegare il codice a una paperella di gomma aiuta i programmatori a chiarire il pensiero e individuare errori nascosti.</p>
                     <button class="btn btn-outline-secondary">ACQUISTALA SUBITO!</button>
                 </div>
             </div>
@@ -77,18 +87,18 @@
     <main>
         <div class="container">
             <!-- Prodotto e caratteristiche -->
-            <div class="product-specs text-center">
-                <div>
+            <div class="product-specs text-center my-5">
+                <div class="product-specs-text-column">
                     <h3>Lunga durata della batteria</h3>
-                    <p>Goditi ore di assisetnza continua nella risoluzione dei bug grazie alla lunga durata della "batteria"
+                    <p class="mb-4">Goditi ore di assisetnza continua nella risoluzione dei bug grazie alla lunga durata della "batteria"
                        (ovvero, la tua pazienza) della paperella di gomma.
                     </p>
                     <h3>Compatibilità universale</h3>
-                    <p>Funziona con tutti i linguaggi di programmazione e sistemi operativi, la paperella di gomma è l'unico
+                    <p class="mb-4">Funziona con tutti i linguaggi di programmazione e sistemi operativi, la paperella di gomma è l'unico
                        strumento do debugging che non necessita di aggiornamenti.
                     </p>
                     <h3>Design Elegante</h3>
-                    <p>Mostra con orgoglio il design elegante e raffinato della tua paperella di gomma, disponibile in vari
+                    <p class="mb-4">Mostra con orgoglio il design elegante e raffinato della tua paperella di gomma, disponibile in vari
                        colori per abbinarsi al tuo stile di programmatore.
                     </p>
                 </div>
@@ -97,17 +107,17 @@
                     <img class="img-fluid" src="./img/invisible.png" alt="Napoleon Rubber Duck">
                 </div>
 
-                <div>
+                <div class="product-specs-text-column">
                     <h3>Resistenza agli spruzzi</h3>
-                    <p>Perfetta per resistere ai piccoli incidenti con caffè e bevande, la tua paperella di gomma non teme
+                    <p class="mb-4">Perfetta per resistere ai piccoli incidenti con caffè e bevande, la tua paperella di gomma non teme
                        schizzi, mantenendoti sempre pronto per il debugging.
                     </p>
                     <h3>Portabilità</h3>
-                    <p>Leggera e facile da trasportare la paperella di gomma può essere il tuo compagno di lavoro ovunque tu
+                    <p class="mb-4">Leggera e facile da trasportare la paperella di gomma può essere il tuo compagno di lavoro ovunque tu
                        vada. Portala con te per un supporto costante.
                     </p>
                     <h3>Promemoria Anti-Stress</h3>
-                    <p>Quando lo stress del codice diventa troppo, spremi la tua paperella di gomma per un rapido sollievo
+                    <p class="mb-4">Quando lo stress del codice diventa troppo, spremi la tua paperella di gomma per un rapido sollievo
                        anti-stress, senza bisogno di software complicati.
                     </p>
                 </div>
@@ -116,9 +126,9 @@
 
             <!-- Grid Testimonials -->
             <div class="testimonials text-center">
-                <h2>Cosa ne pensano i nostri sviluppatori</h2>
-                <div class="row my-3">
-                    <div class="col-lg-4">
+                <h2 class="fs-1 fw-bold mb-4">Cosa ne pensano i nostri sviluppatori</h2>
+                <div class="row row-cols-3 my-3 justify-content-center gap-5">
+                    <div class="col-sm-12 col-lg-4">
                         <p>"La paperella di gomma è diventata il mio strumento di debugging preferito. Spiegare i problemi al 
                             mio 'assistente' silenzioso mi ha aiutato a risolvere bug che altrimenti mi avrebbero fatto impazzire. 
                             È anche un ottimo antistress nelle giornate difficili!"
@@ -195,8 +205,8 @@
             </div>
 
             <!-- Galleria collezione -->
-            <div class="gallery text-center my-3">
-                <h2>La collezione di paperelle</h2>
+            <div class="gallery text-center my-5">
+                <h2 class="fs-1 fw-bold">La collezione di paperelle</h2>
                 <p>Una paperella per ogni stile di programmazione</p>
                 <div class="row text-start">
                     <div class="col-lg-4">
@@ -277,11 +287,11 @@
                         <img class="img-fluid" src="./img/single-image2.png" alt="FAQ image">
                     </div>
                     <div class="col-lg-6">
-                        <h2 class="ps-3 my-4">FAQs</h2>
+                        <h2 class="fs-1 fw-bold ps-3 my-4">FAQs</h2>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <button class="accordion-button collapsed fs-5 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                 Come posso utilizzare la paperella di gomma per il debugging?
                             </button>
                             </h2>
@@ -291,7 +301,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <button class="accordion-button collapsed fs-5 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                 Quali sono i vantaggi di usare una paperella di gomma per i programmatori?
                             </button>
                             </h2>
@@ -301,7 +311,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <button class="accordion-button collapsed fs-5 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                 Posso usare la paperella di gomma indipendentemente dal linguaggio di programmazione che utilizzo?
                             </button>
                             </h2>
@@ -311,7 +321,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            <button class="accordion-button collapsed fs-5 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                                 Quanto dettagliatamente devo spiegare il mio codice alla paperella di gomma?
                             </button>
                             </h2>
@@ -325,32 +335,32 @@
             </div>
 
             <!-- Trust Bar -->
-            <div>
+            <div class="trust-bar my-5">
                 <div class="row text-center">
                     <div class="col-lg-4">
-                        <div class="p-5">
+                        <div class="p-2 p-lg-5">
                             <svg class="icon">
                             <use href="#balloon"></use>
                             </svg>
-                            <h4>100% Prodotto di Qualità</h4>
+                            <h4 class="fs-3 fw-semibold">100% Prodotto di Qualità</h4>
                             <p>Abbiamo anche la possibilità di ritiro direttamente dallo stagno</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="p-5">
+                        <div class="p-2 p-lg-5">
                             <svg class="icon">
                                 <use href="#bag-heart"></use>
                             </svg>
-                            <h4>Spedizione gratuita</h4>
+                            <h4 class="fs-3 fw-semibold">Spedizione gratuita</h4>
                             <p>Dal magazzino alla scrivania</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="p-5">
+                        <div class="p-2 p-lg-5">
                             <svg class="icon">
                                 <use href="#handiplast"></use>
                             </svg>
-                            <h4>Rimborso garantito</h4>
+                            <h4 class="fs-3 fw-semibold">Rimborso garantito</h4>
                             <p>Ti rimborsiamo se la paperella non fa quack</p>
                         </div>
                     </div>
@@ -361,10 +371,10 @@
     
     <!-- TODO Font, icone\link, submit button -->
     <footer class="d-flex flex-column align-items-center gap-3 text-center">
-        <h4>Iscriviti per rimanere aggiornato</h4>
+        <h4 class="fw-bold">Iscriviti per rimanere aggiornato</h4>
         <p>Iscriviti alla nostra newsletter per rimanere aggiornato su sconti e novità</p>
 
-        <div class="input-container d-flex justify-content-between align-items-center">
+        <div class="input-container d-flex justify-content-between align-items-center mb-4">
            <div>
             <input type="text" placeholder="Lascia la tua mail qui...">
            </div>
@@ -392,12 +402,11 @@
             <use href="#instagram"></use>
         </svg>
         </div>
+    </footer>
 
-        <address>
+        <address class="text-center my-3">
             &copy; 2024 BooLanding Product. Designed by Boolean
         </address>
-
-    </footer>
     
     <!-- SVG Icons catalogue -->
      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
