@@ -19,199 +19,194 @@
     <title>Rubber Duck Debuggings</title>
 </head>
 <body>
-
-    <header class="navbar-header">
-         <!-- navbar --> 
-         <!--TODO (Personalizzare icona collapse)-->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img class="img-fluid" src="./img/logo.png" alt="Rubber Duck logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span>
-            <svg class="icon">
-                <use href="#navbar-icon"></use>
-            </svg>
-        </span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-            <a class="navbar-brand" href="#">
-            <img class="img-fluid" src="./img/logo.png" alt="Rubber Duck logo">
-            </a>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-4">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">I punti di forza</a>
-            </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Recensioni</a>
-            </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Paperelle</a>
-            </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">FAQs</a>
-            </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Newsletter</a>
-            </li>
-            </ul>
-        </div>
-        </div>
-    </div>
-    </nav>
-    </header>
-         <!-- Banner -->
-    <header class="banner-header">
-            <div class="banner">
-                <div class="banner-left">
-                    <img class="img-fluid" src="./img/banner-image.png" alt="Rubber Duck">
-
+    
+    <header class="navbar-header sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="./img/logo.png" alt="Rubber Duck logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span>
+                    <svg class="icon">
+                        <use href="#navbar-icon"></use>
+                    </svg>
+                </span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="./img/logo.png" alt="Rubber Duck logo">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-
-                <div class="banner-right text-center">
-                    <h1 class="mb-5">Rubber Duck Debuggings</h1>
-                    <p class="mb-4">Spiegare il codice a una paperella di gomma aiuta i programmatori a chiarire il pensiero e individuare errori nascosti.</p>
-                    <button class="btn btn-outline-secondary">ACQUISTALA SUBITO!</button>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">I punti di forza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Recensioni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Paperelle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Newsletter</a>
+                    </li>
+                    </ul>
+                </div>
                 </div>
             </div>
+        </nav>
+    </header>
+    
+    <header class="banner-header">
+        <div class="banner">
+            <div class="banner-left">
+                <img class="img-fluid" src="./img/banner-image.png" alt="Rubber Duck">
+            </div>
+            <div class="banner-right text-center">
+                <h1 class="mb-5">Rubber Duck Debuggings</h1>
+                <p class="mb-4">Spiegare il codice a una paperella di gomma aiuta i programmatori a chiarire il pensiero e individuare errori nascosti.</p>
+                <button class="btn btn-outline-secondary">ACQUISTALA SUBITO!</button>
+            </div>
+        </div>
     </header>
 
     <main>
-        <div class="container">
-            <!-- Prodotto e caratteristiche -->
-            <div class="product-specs text-center my-5">
-                <div class="product-specs-text-column">
-                    <h3>Lunga durata della batteria</h3>
-                    <p class="mb-4">Goditi ore di assisetnza continua nella risoluzione dei bug grazie alla lunga durata della "batteria"
-                       (ovvero, la tua pazienza) della paperella di gomma.
-                    </p>
-                    <h3>Compatibilità universale</h3>
-                    <p class="mb-4">Funziona con tutti i linguaggi di programmazione e sistemi operativi, la paperella di gomma è l'unico
-                       strumento do debugging che non necessita di aggiornamenti.
-                    </p>
-                    <h3>Design Elegante</h3>
-                    <p class="mb-4">Mostra con orgoglio il design elegante e raffinato della tua paperella di gomma, disponibile in vari
-                       colori per abbinarsi al tuo stile di programmatore.
-                    </p>
-                </div>
-
-                <div class="product-specs-img text-center">
-                    <img class="img-fluid" src="./img/invisible.png" alt="Napoleon Rubber Duck">
-                </div>
-
-                <div class="product-specs-text-column">
-                    <h3>Resistenza agli spruzzi</h3>
-                    <p class="mb-4">Perfetta per resistere ai piccoli incidenti con caffè e bevande, la tua paperella di gomma non teme
-                       schizzi, mantenendoti sempre pronto per il debugging.
-                    </p>
-                    <h3>Portabilità</h3>
-                    <p class="mb-4">Leggera e facile da trasportare la paperella di gomma può essere il tuo compagno di lavoro ovunque tu
-                       vada. Portala con te per un supporto costante.
-                    </p>
-                    <h3>Promemoria Anti-Stress</h3>
-                    <p class="mb-4">Quando lo stress del codice diventa troppo, spremi la tua paperella di gomma per un rapido sollievo
-                       anti-stress, senza bisogno di software complicati.
-                    </p>
-                </div>
-
+        
+        <!-- Prodotto e caratteristiche -->
+        <div class="product-specs container text-center my-5">
+            <div class="product-specs-text-column">
+                <h3>Lunga durata della batteria</h3>
+                <p class="mb-4">Goditi ore di assisetnza continua nella risoluzione dei bug grazie alla lunga durata della "batteria"
+                    (ovvero, la tua pazienza) della paperella di gomma.
+                </p>
+                <h3>Compatibilità universale</h3>
+                <p class="mb-4">Funziona con tutti i linguaggi di programmazione e sistemi operativi, la paperella di gomma è l'unico
+                    strumento do debugging che non necessita di aggiornamenti.
+                </p>
+                <h3>Design Elegante</h3>
+                <p class="mb-4">Mostra con orgoglio il design elegante e raffinato della tua paperella di gomma, disponibile in vari
+                    colori per abbinarsi al tuo stile di programmatore.
+                </p>
             </div>
 
-            <!-- Grid Testimonials -->
-            <div class="testimonials text-center">
-                <h2 class="fs-1 fw-bold mb-4">Cosa ne pensano i nostri sviluppatori</h2>
-                <div class="row row-cols-3 my-3 justify-content-center gap-5">
-                    <div class="col-sm-12 col-lg-4">
-                        <p>"La paperella di gomma è diventata il mio strumento di debugging preferito. Spiegare i problemi al 
-                            mio 'assistente' silenzioso mi ha aiutato a risolvere bug che altrimenti mi avrebbero fatto impazzire. 
-                            È anche un ottimo antistress nelle giornate difficili!"
-                        </p>
-                         <div class="star-icons my-2">
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                        </div>
-                        <strong>David William - Feb 22, 2023</strong>
-                    </div>
-                    <div class="col-lg-4 d-sm-none d-lg-grid">
-                        <p>"Non avrei mai immaginato quanto una semplice paperella di gomma potesse fare la differenza. È incredibile 
-                           come verbalizzare i problemi davanti alla paperella mi aiuti a vedere soluzioni che prima non notavo. 
-                           Inoltre, è carinissima sulla mia scrivania!"
-                        </p>
-                         <div class="star-icons my-2">
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                        </div>
-                        <strong>Emma Turner - April 5, 2023</strong>
-                    </div>
-                    <div class="col-lg-4 d-sm-none d-lg-grid">
-                        <p>"Da quando ho adottato la paperella di gomma, il mio processo di debugging è migliorato notevolmente. 
-                           La trovo molto utile per schiarirmi le idee e trovare errori nascosti. La porto sempre con me, ovunque 
-                           vada!"
-                        </p>
-                         <div class="star-icons my-2">
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                            <svg class="icon">
-                                <use href="#star-fill"></use>
-                            </svg>
-                        </div>
-                        <strong>Rachel Bryan - April 18, 2023</strong>
-                    </div>
-                </div>
-
+            <div class="product-specs-img text-center">
+                <img class="img-fluid" src="./img/invisible.png" alt="Napoleon Rubber Duck">
             </div>
 
-            <!-- Galleria collezione -->
-            <div class="gallery text-center my-5">
+            <div class="product-specs-text-column">
+                <h3>Resistenza agli spruzzi</h3>
+                <p class="mb-4">Perfetta per resistere ai piccoli incidenti con caffè e bevande, la tua paperella di gomma non teme
+                    schizzi, mantenendoti sempre pronto per il debugging.
+                </p>
+                <h3>Portabilità</h3>
+                <p class="mb-4">Leggera e facile da trasportare la paperella di gomma può essere il tuo compagno di lavoro ovunque tu
+                    vada. Portala con te per un supporto costante.
+                </p>
+                <h3>Promemoria Anti-Stress</h3>
+                <p class="mb-4">Quando lo stress del codice diventa troppo, spremi la tua paperella di gomma per un rapido sollievo
+                    anti-stress, senza bisogno di software complicati.
+                </p>
+            </div>
+        </div>
+
+        <!-- Grid Testimonials -->
+        <div class="testimonials container text-center">
+            <h2 class="fs-1 fw-bold mb-4">Cosa ne pensano i nostri sviluppatori</h2>
+            <div class="row row-cols-3 my-3 justify-content-center gap-5">
+                <div class="col-sm-12 col-lg-4">
+                    <p>"La paperella di gomma è diventata il mio strumento di debugging preferito. Spiegare i problemi al 
+                        mio 'assistente' silenzioso mi ha aiutato a risolvere bug che altrimenti mi avrebbero fatto impazzire. 
+                        È anche un ottimo antistress nelle giornate difficili!"
+                    </p>
+                        <div class="star-icons m-2">
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                    </div>
+                    <strong>David William - Feb 22, 2023</strong>
+                </div>
+                <div class="col-lg-4 d-sm-none d-lg-grid">
+                    <p>"Non avrei mai immaginato quanto una semplice paperella di gomma potesse fare la differenza. È incredibile 
+                        come verbalizzare i problemi davanti alla paperella mi aiuti a vedere soluzioni che prima non notavo. 
+                        Inoltre, è carinissima sulla mia scrivania!"
+                    </p>
+                        <div class="star-icons my-2">
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                    </div>
+                    <strong>Emma Turner - April 5, 2023</strong>
+                </div>
+                <div class="col-lg-4 d-sm-none d-lg-grid">
+                    <p>"Da quando ho adottato la paperella di gomma, il mio processo di debugging è migliorato notevolmente. 
+                        La trovo molto utile per schiarirmi le idee e trovare errori nascosti. La porto sempre con me, ovunque 
+                        vada!"
+                    </p>
+                        <div class="star-icons my-2">
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use href="#star-fill"></use>
+                        </svg>
+                    </div>
+                    <strong>Rachel Bryan - April 18, 2023</strong>
+                </div>
+            </div>      
+        </div>
+
+        <!-- Galleria collezione -->
+        <div class="gallery text-center my-5">
+            <div class="container">
                 <h2 class="fs-1 fw-bold">La collezione di paperelle</h2>
                 <p>Una paperella per ogni stile di programmazione</p>
                 <div class="row text-start">
                     <div class="col-lg-4">
                         <img class="img-fluid" src="./img/product-item1.png" alt="Cool Rubber Duck">
-                        <div class="star-icons my-2">
+                        <div class="star-icons mt-1">
                             <svg class="icon">
                                 <use href="#star-fill"></use>
                             </svg>
@@ -233,7 +228,7 @@
                     </div>
                     <div class="col-lg-4">
                         <img class="img-fluid"  src="./img/product-item2.png" alt="Classic Rubber Duck">
-                        <div class="star-icons my-2">
+                        <div class="star-icons mt-1">
                             <svg class="icon">
                                 <use href="#star-fill"></use>
                             </svg>
@@ -255,7 +250,7 @@
                     </div>
                     <div class="col-lg-4">
                         <img class="img-fluid"  src="./img/product-item3.png" alt="Bat Rubber Duck">
-                        <div class="star-icons my-2">
+                        <div class="star-icons mt-1">
                             <svg class="icon">
                                 <use href="#star-fill"></use>
                             </svg>
@@ -276,18 +271,18 @@
                         <h5 class="fs-3 fw-bold">$69</h5>
                     </div>
                 </div>
-
             </div>
+        </div>
 
-            <!-- FAQs-->
-            <!-- TODO Font-size e personalizzazione icone -->
-            <div>
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <img class="img-fluid" src="./img/single-image2.png" alt="FAQ image">
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 class="fs-1 fw-bold ps-3 my-4">FAQs</h2>
+        <!-- FAQs-->
+        <div class="FAQ container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="./img/single-image2.png" alt="FAQ image">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fs-1 fw-bold ps-3 mt-4 m-lg-0">FAQs</h2>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -329,47 +324,46 @@
                             <div class="accordion-body">Dovresti spiegare ogni dettaglio del tuo codice. Più sei dettagliato, più è probabile che tu scopra errori o ottenga nuove prospettive. Questo processo ti costringe a rivedere attentamente ogni parte del tuo lavoro.</div>
                             </div>
                         </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Trust Bar -->
-            <div class="trust-bar my-5">
-                <div class="row text-center">
-                    <div class="col-lg-4">
-                        <div class="p-2 p-lg-5">
-                            <svg class="icon">
-                            <use href="#balloon"></use>
-                            </svg>
-                            <h4 class="fs-3 fw-semibold">100% Prodotto di Qualità</h4>
-                            <p>Abbiamo anche la possibilità di ritiro direttamente dallo stagno</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="p-2 p-lg-5">
-                            <svg class="icon">
-                                <use href="#bag-heart"></use>
-                            </svg>
-                            <h4 class="fs-3 fw-semibold">Spedizione gratuita</h4>
-                            <p>Dal magazzino alla scrivania</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="p-2 p-lg-5">
-                            <svg class="icon">
-                                <use href="#handiplast"></use>
-                            </svg>
-                            <h4 class="fs-3 fw-semibold">Rimborso garantito</h4>
-                            <p>Ti rimborsiamo se la paperella non fa quack</p>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Trust Bar -->      
+        <div class="trust-bar container my-5">
+            <div class="row text-center">
+                <div class="col-lg-4">
+                    <div class="p-2 p-lg-5">
+                        <svg class="icon">
+                            <use href="#balloon"></use>
+                        </svg>
+                        <h4 class="fs-3 fw-semibold">100% Prodotto di Qualità</h4>
+                        <p>Abbiamo anche la possibilità di ritiro direttamente dallo stagno</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="p-2 p-lg-5">
+                        <svg class="icon">
+                            <use href="#bag-heart"></use>
+                        </svg>
+                        <h4 class="fs-3 fw-semibold">Spedizione gratuita</h4>
+                        <p>Dal magazzino alla scrivania</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="p-2 p-lg-5">
+                        <svg class="icon">
+                            <use href="#handiplast"></use>
+                        </svg>
+                        <h4 class="fs-3 fw-semibold">Rimborso garantito</h4>
+                        <p>Ti rimborsiamo se la paperella non fa quack</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </main>
     
-    <!-- TODO Font, icone\link, submit button -->
     <footer class="d-flex flex-column align-items-center gap-3 text-center">
         <h4 class="fw-bold">Iscriviti per rimanere aggiornato</h4>
         <p>Iscriviti alla nostra newsletter per rimanere aggiornato su sconti e novità</p>
@@ -379,36 +373,47 @@
             <input type="text" placeholder="Lascia la tua mail qui...">
            </div>
            <div>
+            <button type="submit">
             <svg class="icon">
                 <use href="#send"></use>
             </svg>
+            </button>
            </div>
         </div>
 
         <div class="social-icons">
+        <a href="#">
         <svg class="icon">
             <use href="#facebook"></use>
         </svg>
+        </a>
+        <a href="#">
         <svg class="icon">
             <use href="#twitter"></use>
         </svg>
+        </a>
+        <a href="#">
         <svg class="icon">
             <use href="#youtube"></use>
         </svg>
+        </a>
+        <a href="#">
         <svg class="icon">
             <use href="#linkedin"></use>
         </svg>
+        </a>
+        <a href="#">
         <svg class="icon">
             <use href="#instagram"></use>
         </svg>
+        </a>
         </div>
     </footer>
-
-        <address class="text-center my-3">
+    <address class="text-center my-3">
             &copy; 2024 BooLanding Product. Designed by Boolean
-        </address>
+    </address>
     
-    <!-- SVG Icons catalogue -->
+     <!-- SVG Icons catalogue -->
      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol xmlns="http://www.w3.org/2000/svg" id="navbar-icon" viewBox="0 0 16 16">
         <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
@@ -466,7 +471,7 @@
         <path fill="currentColor" d="M12.244 4c.534.003 1.87.016 3.29.073l.504.022c1.429.067 2.857.183 3.566.38c.945.266 1.687 1.04 1.938 2.022c.4 1.56.45 4.602.456 5.339l.001.152v.174c-.007.737-.057 3.78-.457 5.339c-.254.985-.997 1.76-1.938 2.022c-.709.197-2.137.313-3.566.38l-.504.023c-1.42.056-2.756.07-3.29.072l-.235.001h-.255c-1.13-.007-5.856-.058-7.36-.476c-.944-.266-1.687-1.04-1.938-2.022c-.4-1.56-.45-4.602-.456-5.339v-.326c.006-.737.056-3.78.456-5.339c.254-.985.997-1.76 1.939-2.021c1.503-.419 6.23-.47 7.36-.476h.489ZM9.999 8.5v7l6-3.5l-6-3.5Z" />
       </symbol>
      </svg>
-        <!-- Bootstrap script -->
+     <!-- Bootstrap script -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
              integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
              crossorigin="anonymous">
