@@ -1,4 +1,3 @@
-
 /* Banner */ 
 .banner-left {
     flex-basis: 50%;
@@ -10,15 +9,63 @@
     flex-basis: 50%;
 }
 
-/* Banner button */ 
 .btn-outline-secondary:hover {
     background-color: black;
     color: white;
+}
 
+/* Gallery */ 
+.gallery h5 {
+    color: rgb(133, 212, 14);
+}
+
+/* SVG Icons */
+.star-icons .icon {
+    color: rgb(241, 189, 55);
+    width: 20px;
+    height: 20px;
+}
+
+.testimonials .star-icons .icon {
+    width: 15px;
+    height: 15px;
+}
+
+.icon {
+    width: 40px;
+    color: rgb(55, 28, 211);
+} 
+
+footer .icon {
+color: rgb(39, 196, 39);
+}
+
+.input-container .icon {
+    width: 55px;
+    height: 55px;
+}
+
+.social-icons .icon {
+    height: 40px;
+    padding: 8px;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+/* Footer */ 
+
+.input-container {
+    border-bottom: 1px solid gray;
+    width: 33%;
+}
+
+.input-container input {
+    outline: none;
+    border: none;
 }
 
 /* Media Query */ 
-
 /* Desktop version */
 @media screen and (min-width: 992px) {
     .banner {
