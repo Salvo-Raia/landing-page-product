@@ -17,42 +17,46 @@
          <!-- navbar --> 
          <!--! SOSTITUIRE CON NAVBAR OFF-CANVAS CHE PERO' DEVO CONTROLLARE MEGLIO PERCHE' MI DA' PROBLEMI--> 
          <!--TODO (Personalizzare)-->
-         <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img class="img-fluid" src="./img/logo.png" alt="Rubber Duck logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <a class="navbar-brand" href="#">
+            <img class="img-fluid" src="./img/logo.png" alt="Rubber Duck logo">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-5">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">I punti di forza</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Recensioni</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Paperelle</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">FAQs</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Newsletter</a>
+            </li>
+            </ul>
+        </div>
+        </div>
     </div>
-  </div>
-         </nav>
+    </nav>
     </header>
          <!-- Banner -->
     <header class="banner-header">
@@ -65,56 +69,76 @@
                 <div class="banner-right text-center p-4">
                     <h1>Rubber Duck Debuggings</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, laborum?</p>
-                    <button class="btn">ACQUISTALA SUBITO</button>
+                    <button class="btn btn-outline-secondary">ACQUISTALA SUBITO!</button>
                 </div>
             </div>
     </header>
 
-    <main class>
+    <main>
         <div class="container">
             <!-- Prodotto e caratteristiche -->
-            <!-- TODO Flex su versione desktop -->
             <div class="product-specs">
                 <div>
-                    <h1>Titolo</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, minus!</p>
-                    <h1>Titolo</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, minus!</p>
-                    <h1>Titolo</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, minus!</p>
+                    <h3>Lunga durata della batteria</h3>
+                    <p>Goditi ore di assisetnza continua nella risoluzione dei bug grazie alla lunga durata della "batteria"
+                       (ovvero, la tua pazienza) della paperella di gomma.
+                    </p>
+                    <h3>Compatibilità universale</h3>
+                    <p>Funziona con tutti i linguaggi di programmazione e sistemi operativi, la paperella di gomma è l'unico
+                       strumento do debugging che non necessita di aggiornamenti.
+                    </p>
+                    <h3>Design Elegante</h3>
+                    <p>Mostra con orgoglio il design elegante e raffinato della tua paperella di gomma, disponibile in vari
+                       colori per abbinarsi al tuo stile di programmatore.
+                    </p>
                 </div>
 
-                <div class="product-specs-img">
+                <div class="product-specs-img text-center">
                     <img class="img-fluid" src="./img/invisible.png" alt="Napoleon Rubber Duck">
                 </div>
 
                 <div>
-                    <h1>Titolo</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, minus!</p>
-                    <h1>Titolo</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, minus!</p>
-                    <h1>Titolo</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, minus!</p>
+                    <h3>Resistenza agli spruzzi</h3>
+                    <p>Perfetta per resistere ai piccoli incidenti con caffè e bevande, la tua paperella di gomma non teme
+                       schizzi, mantenendoti sempre pronto per il debugging.
+                    </p>
+                    <h3>Portabilità</h3>
+                    <p>Leggera e facile da trasportare la paperella di gomma può essere il tuo compagno di lavoro ovunque tu
+                       vada. Portala con te per un supporto costante.
+                    </p>
+                    <h3>Promemoria Anti-Stress</h3>
+                    <p>Quando lo stress del codice diventa troppo, spremi la tua paperella di gomma per un rapido sollievo
+                       anti-stress, senza bisogno di software complicati.
+                    </p>
                 </div>
 
             </div>
 
-            <!-- Grid Opinions -->
-            <!-- TODO versione desktop + (versione small si vede un solo blocco di testo per volta)-->
+            <!-- Grid Testimonials -->
+            <!-- TODO Stelline valutazione -->
             <div class="text-center">
                 <h2>Cosa ne pensano i nostri sviluppatori</h2>
                 <div class="row my-3">
                     <div class="col-lg-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni esse commodi veritatis rerum, 
-                        nobis architecto minus amet provident quo est id repellendus saepe minima? Minus ex neque nisi est iusto?
+                        <p>"La paperella di gomma è diventata il mio strumento di debugging preferito. Spiegare i problemi al 
+                            mio 'assistente' silenzioso mi ha aiutato a risolvere bug che altrimenti mi avrebbero fatto impazzire. 
+                            È anche un ottimo antistress nelle giornate difficili!"
+                        </p>
+                        <strong>David William - Feb 22, 2023</strong>
                     </div>
-                    <div class="col-lg-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni esse commodi veritatis rerum, 
-                        nobis architecto minus amet provident quo est id repellendus saepe minima? Minus ex neque nisi est iusto?
+                    <div class="col-lg-4 d-sm-none d-lg-grid">
+                        <p>"Non avrei mai immaginato quanto una semplice paperella di gomma potesse fare la differenza. È incredibile 
+                           come verbalizzare i problemi davanti alla paperella mi aiuti a vedere soluzioni che prima non notavo. 
+                           Inoltre, è carinissima sulla mia scrivania!"
+                        </p>
+                        <strong>Emma Turner - April 5, 2023</strong>
                     </div>
-                    <div class="col-lg-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni esse commodi veritatis rerum, 
-                        nobis architecto minus amet provident quo est id repellendus saepe minima? Minus ex neque nisi est iusto?
+                    <div class="col-lg-4 d-sm-none d-lg-grid">
+                        <p>"Da quando ho adottato la paperella di gomma, il mio processo di debugging è migliorato notevolmente. 
+                           La trovo molto utile per schiarirmi le idee e trovare errori nascosti. La porto sempre con me, ovunque 
+                           vada!"
+                        </p>
+                        <strong>Rachel Bryan - April 18, 2023</strong>
                     </div>
                 </div>
 
@@ -123,16 +147,22 @@
             <!-- Galleria collezione -->
             <div class="text-center my-3">
                 <h2>La collezione di paperelle</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, quas?</p>
-                <div class="row">
+                <p>Una paperella per ogni stile di programmazione</p>
+                <div class="row text-start">
                     <div class="col-lg-4">
                         <img class="img-fluid" src="./img/product-item1.png" alt="Cool Rubber Duck">
+                        <h3>Cool-Duck</h3>
+                        <h5>$15</h5>
                     </div>
                     <div class="col-lg-4">
-                        <img class="img-fluid"  src="./img/product-item2.png" alt="Lonely Rubber Duck">
+                        <img class="img-fluid"  src="./img/product-item2.png" alt="Classic Rubber Duck">
+                        <h3>Classic-duck</h3>
+                        <h5>$29</h5>
                     </div>
                     <div class="col-lg-4">
                         <img class="img-fluid"  src="./img/product-item3.png" alt="Bat Rubber Duck">
+                        <h3>Bat-duck</h3>
+                        <h5>$69</h5>
                     </div>
                 </div>
 
@@ -187,15 +217,15 @@
             <div>
                 <div class="row text-center">
                     <div class="col-lg-4">
-                        <h3>Titolo</h3>
+                        <h4>Titolo</h4>
                         <p>Paragrafo</p>
                     </div>
                     <div class="col-lg-4">
-                        <h3>Titolo</h3>
+                        <h4>Titolo</h4>
                         <p>Paragrafo</p>
                     </div>
                     <div class="col-lg-4">
-                        <h3>Titolo</h3>
+                        <h4>Titolo</h4>
                         <p>Paragrafo</p>
                     </div>
                 </div>

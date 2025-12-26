@@ -10,6 +10,13 @@
     flex-basis: 50%;
 }
 
+/* Banner button */ 
+.btn-outline-secondary:hover {
+    background-color: black;
+    color: white;
+
+}
+
 /* Media Query */ 
 
 /* Desktop version */
@@ -17,5 +24,15 @@
     .banner {
         display: flex;
     }
+
+    .product-specs {
+        display: flex;
+        align-items: center;
+    }
+
+    .product-specs img {
+        width: 50%;
+    }
+    
 
 }
