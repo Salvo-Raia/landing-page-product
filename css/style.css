@@ -1,0 +1,17 @@
+.banner-left {
+    flex-basis: 50%;
+}
+
+.banner-right {
+    background-image: url(../img/banner-bg.png);
+    background-size: cover;
+    flex-basis: 50%;
+}
+
+/* Media Query */ 
+@media screen and (min-width: 576px) {
+    .banner {
+        display: flex;
+    }
+
+}
