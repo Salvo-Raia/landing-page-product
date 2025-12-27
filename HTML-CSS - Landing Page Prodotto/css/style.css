@@ -48,7 +48,6 @@ footer h4 {
     }
 
 /* SVG Icons */
-
 .navbar .icon {
     height: 40px;
     width: 40px;
@@ -69,6 +68,14 @@ footer h4 {
 .testimonials .star-icons .icon {
     width: 15px;
     height: 15px;
+}
+
+#accordionFlushExample .accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 1v14M1 8h14' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+#accordionFlushExample .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M1 8h14' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E");
 }
 
 .trust-bar .icon {
