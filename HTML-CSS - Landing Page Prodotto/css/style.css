@@ -1,9 +1,17 @@
+/* Custom Properties */ 
+:root {
+    --standard-grey: #3D3A38;
+    --bg-grey: rgb(240, 240, 240);
+    --icon-green: #04DF6C;
+    --icon-blue: #2E45CC;
+}
+
 /* Fonts */ 
 body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     line-height: 1.24;
-    color: #3D3A38;
+    color: var(--standard-grey);
 }
 
 h2, 
@@ -12,7 +20,7 @@ h4,
 h5 {
     font-family: "Poppins";
     font-weight: 400;
-    color: #3D3A38;
+    color: var(--standard-grey)
 }
 
 .banner h1 {
@@ -32,7 +40,7 @@ h5 {
 }
 
 .gallery h5 {
-    color: #04DF6C
+    color: var(--icon-green);
 }
 
 footer h4 {
@@ -67,7 +75,7 @@ footer h4 {
     width: 40px;
     height: 40px;
     margin-bottom: 20px;
-    color: #2E45CC;
+    color: var(--icon-blue);
 } 
 
 .input-container .icon {
@@ -80,7 +88,7 @@ footer h4 {
     width: 40px;
     height: 40px;
     padding: 8px;
-    color: #04DF6C;
+    color: var(--icon-green);
     border: 1px solid rgb(182, 181, 181);
     border-radius: 50%;
     margin: 0 5px;
@@ -123,7 +131,7 @@ footer h4 {
 footer,
 .gallery {
     padding: 20px 0;
-    background-color: rgb(240, 240, 240);
+    background-color: var(--bg-grey);
 }
 
 .input-container {
@@ -132,7 +140,7 @@ footer,
 }
 
 .input-container input {
-    background-color: rgb(240, 240, 240);
+    background-color: var(--bg-grey);
 }
 
 footer button,
