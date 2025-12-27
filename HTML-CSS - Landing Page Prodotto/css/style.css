@@ -134,6 +134,26 @@ footer h4 {
     color: white;
 }
 
+/* Testimonials Slider */ 
+.slider-container {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.slider-container.active {
+    background-color: transparent;
+    border: 2px solid var(--icon-blue);
+}
+
+.slider.active {
+    width: 10px;
+    height: 10px;
+    background-color: var(--icon-blue);
+    border-radius: 50%;
+}
+
 /* Footer */ 
 footer,
 .gallery {
