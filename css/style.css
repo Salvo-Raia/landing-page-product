@@ -19,7 +19,8 @@ h3,
 h4, 
 h5 {
     font-family: "Poppins";
-    font-weight: 400;
+    font-weight: 500; /* 500 mi sembra più vicino alla reference rispetto ai 400 proposti dal grafico */
+    line-height: 1.1; /* 1.5 suggerito dal grafico mi sembra un po' troppo per questo caso specifico, rispetto alla reference */
     color: var(--standard-grey)
 }
 
@@ -27,11 +28,14 @@ h5 {
     font-family: "Poppins", sans-serif;
     font-size: 50px;
     font-weight: 400px;
-    line-height: 0.9;
+    line-height: 1.1; /* 1.5 suggerito dal grafico mi sembra un po' troppo per questo caso specifico, rispetto alla reference */
+    margin-bottom: 20px;
 }
 
 .banner p {
-    font-size: 20px;
+    font-size: 22px;
+    max-width: 70%;
+    margin: 30px auto;
 }
 
 .banner .btn {
@@ -44,8 +48,75 @@ h5 {
 }
 
 footer h4 {
-    font-size: 50px;
-    }
+max-width: 80%;
+}
+
+/* Banner */ 
+.banner-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner-right {
+    min-height: 450px;
+    background-image: url(../img/banner-bg.png);
+    background-size: 1000px;
+    padding: 60px 0;
+}
+
+.btn-outline-secondary {
+    border-color: black;
+    color: black;
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--standard-grey);
+    color: white;
+}
+
+/* Testimonials Slider */ 
+.slider-container {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.slider-container.active {
+    background-color: transparent;
+    border: 2px solid var(--icon-blue);
+}
+
+.slider.active {
+    width: 10px;
+    height: 10px;
+    background-color: var(--icon-blue);
+    border-radius: 50%;
+}
+
+/* Footer */ 
+footer,
+.gallery {
+    padding: 20px 0;
+    background-color: var(--bg-grey);
+}
+
+.input-container {
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+
+.input-container input {
+    background-color: var(--bg-grey);
+}
+
+footer button,
+.input-container input {
+    outline: none;
+    border: none;
+}
 
 /* SVG Icons */
 .navbar .icon {
@@ -105,73 +176,6 @@ footer h4 {
     text-decoration: none;
 }
 
-/* Banner */ 
-
-.banner-left img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.banner-right {
-    background-image: url(../img/banner-bg.png);
-    background-size: cover;
-    padding: 40px 0;
-}
-
-.btn-outline-secondary {
-    border-color: black;
-    color: black;
-}
-
-.btn-outline-secondary:hover {
-    background-color: black;
-    color: white;
-}
-
-/* Testimonials Slider */ 
-.slider-container {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: grey;
-}
-
-.slider-container.active {
-    background-color: transparent;
-    border: 2px solid var(--icon-blue);
-}
-
-.slider.active {
-    width: 10px;
-    height: 10px;
-    background-color: var(--icon-blue);
-    border-radius: 50%;
-}
-
-/* Footer */ 
-footer,
-.gallery {
-    padding: 20px 0;
-    background-color: var(--bg-grey);
-}
-
-.input-container {
-    border-bottom: 1px solid gray;
-    width: 100%;
-}
-
-.input-container input {
-    background-color: var(--bg-grey);
-}
-
-footer button,
-.input-container input {
-    outline: none;
-    border: none;
-}
-
 /* Media Query */ 
 /* Desktop version */
 @media screen and (min-width: 992px) {
@@ -182,22 +186,26 @@ footer button,
     .banner-left {
         height: 500px;
         flex-basis: 50%;
-}
+    }
 
     .banner-right {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 500px;
+        min-height: 500px;
         flex-basis: 50%;
+        gap: 30px;
     }
 
     .banner-right h1 {
       font-size: 80px;
+      line-height: 0.9; /* Anche in questo caso, rispetto alla reference, l'1.5 suggerito dal grafico mi sembra eccessivo */
+      margin-bottom: 0; /* Altrimenti mi aggiunge il margin della versione mobile al gap della versione desktop ed ho troppo spazio */
     }
 
     .banner-right p {
         width: 80%;
+        margin: 0 auto; /* Altrimenti mi aggiunge il margin della versione mobile al gap della versione desktop ed ho troppo spazio */
     }
 
     .product-specs {
@@ -223,14 +231,14 @@ footer button,
     }
 
     footer h4 {
-    font-size: 50px;
+    max-width: 30%;
     }
 
     footer p {
-        width: 35%;
+        max-width: 40%;
     }
 
     .input-container {
-    width: 33%;
+    max-width: 40%;
     }
 }
