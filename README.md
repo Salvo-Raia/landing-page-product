@@ -1,24 +1,75 @@
-# Esercizio: Landing page 
-Nome repo: `landing-page-product`
+![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
 
-## Consegna
-Vogliamo creare una landing page del nostro prodotto preferito 👩🏻💻. Una Landing Page (o pagina di atterraggio) di un prodotto è una pagina web specificamente progettata per promuovere un prodotto o un servizio e convertire i visitatori in clienti. Questa pagina è spesso utilizzata come punto di arrivo per campagne di marketing online, come annunci pubblicitari, email marketing, social media e altri canali di marketing digitale.
+# 🎓 Exercise 19/50 - Product Landing Page
 
-**🎯 Obiettivo**
+## 📌 Project Overview
 
-Segui le indicazioni del designer per riprodurre il layout del prototipo che ti è stato fornito. 
-* Ci sono le indicazioni da sinistra verso destra su come realizzare la versione mobile e desktop della stessa pagina unica (Landing Page).
-* Ci sono inoltre le indicazioni per i colori e la tipografia.
-* Nella stessa cartella ci sono anche le icone (SVG) e due gruppi di testi (Recensioni e FAQs), il resto va estrapolato dal prototipo, così come la disposizione delle icone e le funzionalità avanzate come il menu su mobile e lo slider delle recensioni
+| Property | Details |
+|:--|:--|
+| Repository | landing-page-product |
+| Category | Boolean Tech Academy |
+| Type | Exercise |
+| Exercise | 19/50 |
 
-### Milestone 
-**Milestone 1 (Struttura HTML e CSS)**
+## 🎯 Assignment
 
-Inizia individuando le macroaree del layout e identificando le aree simili per poter riutilizzare il codice, garantendo una struttura HTML semplice e semantica. Passa poi al CSS, riproducendo fedelmente il layout assegnato per posizionare gli elementi affiancati. Crea classi riutilizzabili per mantenere il codice ordinato e ridurre la duplicazione. Infine, assicurati che il codice CSS sia pulito e facile da mantenere per facilitare eventuali aggiornamenti futuri.
+Create a landing page for your favorite product!
 
-**Milestone 2 (Contenuto)**
+A landing page is a web page specifically designed to promote a product or service and convert visitors into customers.
 
-Una volta realizzata la base, passa all'inserimento del contenuto seguendo fedelmente le istruzioni del `prototype.pdf`
+It is often used as the destination for online marketing campaigns, including advertisements, email marketing, social media, and other digital marketing channels.
 
-**Bonus**
-* Netilify oppure GitHub Pages (per l’hosting del vostro sito statico)
+### 🎯 Objective
+
+Follow the designer's instructions to recreate the layout of the provided prototype.
+
+The design guidelines include:
+
+- Instructions for building both mobile and desktop versions of the same single-page landing page.
+- Color palette and typography specifications.
+- SVG icons and two collections of text content: Reviews and FAQs.
+
+The remaining content must be extracted from the provided prototype, including the placement of icons and advanced functionality such as the mobile navigation menu and the reviews slider.
+
+## 📋 Milestones
+
+### Milestone 1 - HTML Structure & CSS
+
+Start by identifying the main sections of the layout and grouping similar areas to make the code reusable.
+
+Focus on:
+
+- Creating a simple and semantic HTML structure.
+- Identifying reusable layout patterns and components.
+- Using CSS to faithfully reproduce the assigned prototype, positioning elements side by side where required.
+- Creating reusable CSS classes to keep the code organized and reduce duplication.
+- Keeping the stylesheet clean and maintainable to facilitate future updates.
+
+### Milestone 2 - Content Integration
+
+Once the basic structure and layout are complete, add the content by carefully following the instructions in `prototype.pdf`.
+
+Make sure the page content, icons, and their placement faithfully match the reference design.
+
+### ⭐ Bonus - Deployment
+
+Publish your static website online using one of the following hosting services:
+
+- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
+
+## 🛠️ Technologies
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
+
+## 💡 What I Learned
+
+- Structuring complex web pages with semantic HTML.
+- Reproducing a design prototype using CSS.
+- Building responsive layouts for mobile and desktop devices.
+- Working with SVG icons and provided design assets.
+- Deploying a static website using Netlify or GitHub Pages.
+
+## ©️ Credits
+
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
