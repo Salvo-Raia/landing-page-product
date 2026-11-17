@@ -1,6 +1,8 @@
-![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 19/50 - Product Landing Page
+# 🎓 Exercise 19/50: Product Landing Page
+
+A front-end development exercise focused on building a responsive product landing page from a design prototype, using semantic HTML and CSS to recreate its layout, content, and visual elements.
 
 ## 📌 Project Overview
 
@@ -19,8 +21,6 @@ A landing page is a web page specifically designed to promote a product or servi
 
 It is often used as the destination for online marketing campaigns, including advertisements, email marketing, social media, and other digital marketing channels.
 
-### 🎯 Objective
-
 Follow the designer's instructions to recreate the layout of the provided prototype.
 
 The design guidelines include:
@@ -31,9 +31,9 @@ The design guidelines include:
 
 The remaining content must be extracted from the provided prototype, including the placement of icons and advanced functionality such as the mobile navigation menu and the reviews slider.
 
-## 📋 Milestones
+### 📒 Guidelines
 
-### Milestone 1 - HTML Structure & CSS
+#### Milestone 1 - HTML Structure & CSS
 
 Start by identifying the main sections of the layout and grouping similar areas to make the code reusable.
 
@@ -45,13 +45,13 @@ Focus on:
 - Creating reusable CSS classes to keep the code organized and reduce duplication.
 - Keeping the stylesheet clean and maintainable to facilitate future updates.
 
-### Milestone 2 - Content Integration
+#### Milestone 2 - Content Integration
 
 Once the basic structure and layout are complete, add the content by carefully following the instructions in `prototype.pdf`.
 
 Make sure the page content, icons, and their placement faithfully match the reference design.
 
-### ⭐ Bonus - Deployment
+### ⭐ Bonus
 
 Publish your static website online using one of the following hosting services:
 
@@ -72,4 +72,4 @@ Publish your static website online using one of the following hosting services:
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
