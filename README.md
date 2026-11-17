@@ -2,7 +2,7 @@
 
 # 🎓 Exercise 19/50: Product Landing Page
 
-A front-end development exercise focused on building a responsive product landing page from a design prototype, using semantic HTML and CSS to recreate its layout, content, and visual elements.
+Creating a responsive product landing page from a design prototype, using semantic HTML and CSS to recreate its layout, content, and visual elements.
 
 ## 📌 Project Overview
 
