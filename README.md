@@ -8,7 +8,7 @@ Creating a responsive product landing page from a design prototype, using semant
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| landing-page-product | Product Landing Page | Exercise | Semantic HTML & Responsive CSS | 19/50 |
+| landing-page-product | Product Landing Page | Exercise | Semantic HTML & Responsive layout | 19/50 |
 
 ## Assignment
 
@@ -55,7 +55,8 @@ Publish your static website online using one of the following hosting services:
 
 ## Technologies
 
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) 
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
 
 ## What I learned
 
