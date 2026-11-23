@@ -48,7 +48,7 @@ Make sure the page content, icons, and their placement faithfully match the refe
 
 #### Bonus challenge
 
-Publish your static website online using one of the following hosting services:
+Publish your static website online using one of the following hosting services.
 
 - [Netlify](https://www.netlify.com/)
 - [GitHub Pages](https://pages.github.com/)
