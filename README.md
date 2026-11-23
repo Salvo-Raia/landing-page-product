@@ -8,7 +8,7 @@ Creating a responsive product landing page from a design prototype, using semant
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| landing-page-product | Product Landing Page | Exercise | HTML & Responsive layout | 19/50 |
+| landing-page-product | Product Landing Page | Exercise | HTML, CSS, responsive layout | 19/50 |
 
 ## Assignment
 
