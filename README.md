@@ -22,7 +22,7 @@ Follow the designer's instructions to recreate the layout of the provided protot
 
 The design guidelines include:
 
-- Instructions for building mobile and desktop versions of the landing page..
+- Instructions for building mobile and desktop versions of the landing page.
 - Color palette and typography specifications.
 - SVG icons and two collections of text content: Reviews and FAQs.
 
