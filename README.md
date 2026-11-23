@@ -22,7 +22,7 @@ Follow the designer's instructions to recreate the layout of the provided protot
 
 The design guidelines include:
 
-- Instructions for building both mobile and desktop versions of the same single-page landing page.
+- Instructions for building mobile and desktop versions of the landing page..
 - Color palette and typography specifications.
 - SVG icons and two collections of text content: Reviews and FAQs.
 
@@ -48,7 +48,7 @@ Make sure the page content, icons, and their placement faithfully match the refe
 
 #### Bonus challenge
 
-Publish your static website online using one of the following hosting services.
+Try to publish your static website online using one of the following hosting services.
 
 - [Netlify](https://www.netlify.com/)
 - [GitHub Pages](https://pages.github.com/)
